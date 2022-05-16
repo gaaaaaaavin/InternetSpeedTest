@@ -12,10 +12,10 @@ i took it a step forward and made this script run every
 30 minutes via crontab.
 to do so, open up a terminal again and enter:
 
-crontab -e
-30 * * * * cd InternetSpeedTest && python InternetSpeedTest.py
+  * crontab -e
+  * 30 * * * * cd InternetSpeedTest && python InternetSpeedTest.py
 
 SAVE AND EXIT
 
-sudo chmod +x InternetSpeedTest.py
-sudo reboot
+  * sudo chmod +x InternetSpeedTest.py
+  * sudo reboot
